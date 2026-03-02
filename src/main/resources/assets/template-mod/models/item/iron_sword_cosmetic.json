@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mcpvp:item/iron_sword_cosmetic"
+  }
+}
