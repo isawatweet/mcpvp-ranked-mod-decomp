@@ -2,6 +2,7 @@ package com.example.mixin;
 
 import com.example.mcpvp.CosmeticManager;
 import com.example.mcpvp.MatchContext;
+import com.example.mcpvp.StatsManager;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.MinecraftClient;

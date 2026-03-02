@@ -1,5 +1,6 @@
 package com.example.mixin;
 
+import com.example.mcpvp.StatsManager;
 import com.example.mcpvp.WorldManager;
 import com.example.mcpvp.MatchContext;
 import net.fabricmc.api.EnvType;
