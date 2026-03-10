@@ -17,7 +17,7 @@ public class ModelLoaderPlugin implements ModelLoadingPlugin {
         String[] cosmetics = new String[]{"gold", "iron", "wood", "netherite"};
 
         for (String cosmetic : cosmetics) {
-            context.addModels(Identifier.of("mcpvp", "item/" + cosmetic + "_sword_cosmetic"));
+            context.addModels(Identifier.of("template-mod", "item/" + cosmetic + "_sword_cosmetic"));
         }
     }
 }
