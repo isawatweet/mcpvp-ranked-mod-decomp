@@ -329,15 +329,15 @@ public class MatchContext {
 
     @Environment(EnvType.CLIENT)
     public static enum KitType {
-        SWORD("Sword", Items.DIAMOND_SWORD, Identifier.of("mcpvp", "textures/item/sword_icon.png")),
-        AXE("Axe", Items.DIAMOND_AXE, Identifier.of("mcpvp", "textures/item/axe_icon.png")),
-        UHC("UHC", Items.GOLDEN_APPLE, Identifier.of("mcpvp", "textures/item/uhc_icon.png")),
-        MACE("Mace", Items.MACE, Identifier.of("mcpvp", "textures/item/mace_icon.png")),
-        SPEAR("Spear PVP", Items.TRIDENT, Identifier.of("mcpvp", "textures/item/spear.png")),
-        NETHERITE_OP("Netherite OP", Items.NETHERITE_HELMET, Identifier.of("mcpvp", "textures/item/netheriteop_icon.png")),
+        SWORD("Sword", Items.DIAMOND_SWORD, Identifier.of("template-mod", "textures/item/sword_icon.png")),
+        AXE("Axe", Items.DIAMOND_AXE, Identifier.of("template-mod", "textures/item/axe_icon.png")),
+        UHC("UHC", Items.GOLDEN_APPLE, Identifier.of("template-mod", "textures/item/uhc_icon.png")),
+        MACE("Mace", Items.MACE, Identifier.of("template-mod", "textures/item/mace_icon.png")),
+        SPEAR("Spear PVP", Items.TRIDENT, Identifier.of("template-mod", "textures/item/spear.png")),
+        NETHERITE_OP("Netherite OP", Items.NETHERITE_HELMET, Identifier.of("template-mod", "textures/item/netheriteop_icon.png")),
         POT("Pot", Items.SPLASH_POTION, Identifier.ofVanilla("textures/item/potion.png")),
         SMP("SMP", Items.ENDER_PEARL, Identifier.ofVanilla("textures/item/ender_pearl.png")),
-        CRYSTAL("Crystal", Items.END_CRYSTAL, Identifier.of("mcpvp", "textures/item/crystal_icon.png"));
+        CRYSTAL("Crystal", Items.END_CRYSTAL, Identifier.of("template-mod", "textures/item/crystal_icon.png"));
 
         public final String apiName;
         public final Item icon;
